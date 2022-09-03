@@ -1,0 +1,705 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+ 
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.menu-container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    list-style: none;
+    background: rgb(254,155,66);
+    background: linear-gradient(47deg, rgba(254,155,66,1) 0%, rgba(35,252,135,1) 89%, rgba(44,255,136,1) 100%);
+   
+}
+.menulist{
+    display: none;
+}
+.menu-container li{
+    flex: 1 1;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+  
+}
+
+
+.menu-container a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon-header img{
+    width: 50px;
+    height: 50px;
+    
+}
+
+
+
+.icon-header img:hover{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    object-fit:fill;
+    transition-delay: 12s;
+    animation-duration: 3s;
+
+}
+
+
+
+
+
+.menu-container li:hover{
+    flex: 1 1;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px grey;
+}
+
+
+.search-container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("./img/match.webp");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: grey;
+    
+    
+    
+}
+
+
+
+.search-container input{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 10px white;
+    border-radius: 20px;
+    height: 50px;
+    font-size: 2rem;
+    border:none;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 20px;
+
+}
+
+.galery-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: snow;
+   
+    
+}
+
+
+.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    margin: 20px;
+    box-shadow: 2px 2px 10px grey;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 100px;
+    background-color: white;
+}
+
+
+.cell:hover{
+   box-shadow: 5px 5px 50px rgb(2,0,36) ;
+}
+
+
+
+.cell img{
+    width: 100%;
+    
+}
+
+.cell p{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.selfie{
+    width: 100%;
+    height: 50vh;
+    background-image: url("./img/concert.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selfie h2{
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background: rgb(219,205,191);
+    background: linear-gradient(47deg, rgba(219,205,191,1) 0%, rgba(35,192,252,1) 66%, rgba(44,255,136,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;
+}
+
+
+.footer-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.social{
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social a{
+   
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    
+    
+    
+}
+
+.social img{
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 100px black;
+   
+}
+
+
+
+.map{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer{
+    background-image: url("./img/iphonefooter.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 50px;
+    
+}
+
+.text-footer{
+
+  padding-top:50px ;
+  
+}
+
+.text-footer h3{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 50px;
+    color: white;
+}
+
+@media (max-width:800px){
+
+    .menulist{
+        width: 100%;
+        height: 100px;
+        display: flex;
+
+        align-items: center;
+        font-size: 1.6rem;
+        list-style: none;
+        background: rgb(254,155,66);
+        background: linear-gradient(47deg, rgba(254,155,66,1) 0%, rgba(35,252,135,1) 89%, rgba(44,255,136,1) 100%);
+    }
+
+    .menulist li{
+        flex: 1 1;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 2.5rem;
+       
+      
+    }
+
+    .menulist a{
+        text-decoration: none;
+        color: white;
+    }
+    .menu-container{
+       display: none;
+      
+    }
+
+    .menu ul{
+     list-style:none;
+     margin:0;
+     padding:0;
+    }
+
+
+    .menu ul li{
+
+        background: rgb(254,155,66);
+        background: linear-gradient(47deg, rgba(254,155,66,1) 0%, rgba(35,252,135,1) 89%, rgba(44,255,136,1) 100%);
+        position:relative;
+        float:left;
+        margin:0;
+        padding:0;
+    }
+
+    .menu ul a{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:1.8rem;
+    padding:10px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .menu ul li:hover {
+        background: rgb(254,155,66);
+        background: linear-gradient(47deg, rgba(254,155,66,1) 0%, rgba(35,252,135,1) 89%, rgba(44,255,136,1) 100%);
+
+       }
+
+
+       .menu ul ul {
+        display:none;
+        position:absolute;
+        top:100%;
+        left:0;
+        background:#eee;
+        padding:0;
+       }
+
+       .menu ul ul li {
+        float:none;
+        width:150px
+       }
+
+       .menu ul ul a {
+        line-height:120%;
+        padding:10px 15px;
+       }
+
+       .menu ul li:hover > ul {
+        display:block;
+       }
+
+       .search-container{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-image: url("./img/match.webp");
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: grey;
+        
+    }
+
+    .cell{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 40%;
+        height: 400px;
+        margin: 20px;
+        box-shadow: 2px 2px 10px grey;
+        border-radius: 20px;
+        padding: 20px;
+        margin-top: 100px;
+        background-color: white;
+    }
+    
+    
+    .cell:hover{
+       box-shadow: 5px 5px 50px rgb(2,0,36) ;
+    }
+    
+    
+    
+    .cell img{
+        width: 100%;
+        
+    }
+    
+    .cell p{
+        text-align: center;
+        font-size: 1.8rem;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    
+    .selfie{
+        width: 100%;
+        height: 50vh;
+        background-image: url("./img/concert.jpg");
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .selfie h2{
+        font-size: 80px;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        background: rgb(219,205,191);
+        background: linear-gradient(47deg, rgba(219,205,191,1) 0%, rgba(35,192,252,1) 66%, rgba(44,255,136,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: tomato;
+    }
+    
+    
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .social{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    
+    .social a{
+       
+        display: flex;
+        flex: 1 1;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 50px;
+        
+        
+        
+    }
+    
+    .social img{
+        width: 50px;
+        border-radius: 50%;
+        box-shadow: 10px 10px 100px black;
+       
+    }
+    
+    
+    
+    .map{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    footer{
+        background-image: url("./img/iphonefooter.jpg");
+        background-repeat: no-repeat;
+        padding-bottom: 50px;
+    }
+    
+    .text-footer{
+    
+      padding-top:50px ;
+      
+    }
+    
+    .text-footer h3{
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: 'Ubuntu', sans-serif;
+        margin-bottom: 50px;
+        color: white;
+    }
+   
+}
+
+@media (max-width:400px){
+    .footer-container{
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .social{
+        width: 100%;
+        margin-top: 50px;
+        flex: 1 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .social a{
+       
+        display: flex;
+        flex: 1 1;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 40px;
+
+        
+        
+        
+    }
+    
+    .social img{
+        width: 50px;
+        border-radius: 50%;
+        box-shadow: 10px 10px 100px black;
+       
+    }
+    
+    
+    
+    .map{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    footer{
+        background-image: url("./img/iphonefooter.jpg");
+        background-repeat: no-repeat;
+        padding-bottom: 50px;
+    }
+    
+    .text-footer{
+    
+      padding-top:50px ;
+      
+    }
+    
+    .text-footer h3{
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'Ubuntu', sans-serif;
+        margin-bottom: 50px;
+        color: white;
+    }
+   
+
+    
+}
+
+@media (max-width:375px) {
+    .search-container{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-image: url("./img/match.webp");
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: grey;
+        
+        
+        
+    }
+    
+    
+    
+    .search-container input{
+        width: 90%;
+        text-align: center;
+        align-items: center;
+        box-shadow: 2px 2px 2px 10px white;
+        border-radius: 20px;
+        height: 50px;
+        font-size: 2rem;
+        border:none;
+        font-family: 'Ubuntu', sans-serif;
+        margin-left: 20px;
+}
+
+.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 400px;
+    margin: 20px;
+    box-shadow: 2px 2px 10px grey;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 100px;
+    background-color: white;
+}
+
+
+.cell:hover{
+   box-shadow: 5px 5px 50px rgb(2,0,36) ;
+}
+
+
+
+.cell img{
+    width: 100%;
+    
+}
+
+.cell p{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.selfie{
+    width: 100%;
+    height: 50vh;
+    background-image: url("./img/concert.jpg");
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selfie h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background: rgb(219,205,191);
+    background: linear-gradient(47deg, rgba(219,205,191,1) 0%, rgba(35,192,252,1) 66%, rgba(44,255,136,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;
+}
+
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.social a{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+    
+    
+}
+
+.social img{
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 100px black;
+   
+}
+
+
+
+.map{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer{
+    background-image: url("./img/iphonefooter.jpg");
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+
+.text-footer{
+
+  padding-top:50px ;
+  
+}
+
+.text-footer h3{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 50px;
+    color: white;
+}
+
+}
